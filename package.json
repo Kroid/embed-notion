@@ -1,0 +1,21 @@
+{
+  "name": "embed-notion",
+  "version": "0.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:Kroid/embed-notion.git",
+  "author": "George Mironov <kroid@yandex.ru>",
+  "license": "PRIVATE",
+  "private": true,
+  "scripts": {
+    "develop": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "notionapi-agent": "^1.2.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

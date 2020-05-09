@@ -1,0 +1,12 @@
+extends layout.pug
+
+block scripts
+  script(src='https://unpkg.com/mermaid@8.5.0/dist/mermaid.min.js')
+  script.
+    mermaid.initialize({startOnLoad:true})
+    function reload() {
+      location.reload();
+    }
+
+block content
+  .mermaid(ondblclick="reload()") #{value}

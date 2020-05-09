@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+  .container
+    .col-md-12.col-lg-6.offset-lg-3
+      h1.text-center Create notion embed block:
+      form.form(method="POST" action="/")
+        .form-group
+          label(for="notion-token") Notion Token:
+          input.form-control(type="password" name="notionToken" id="notion-token")
+        .form-group
+          label(for="block-id") Block ID:
+          input.form-control(type="text" name="blockId" id="block-id")
+        .form-group
+          label(for="lib") Lib:
+          select.custom-select(name="lib")
+            option(selected) mermaid
+        .form-group
+          button.btn.btn-primary Create
