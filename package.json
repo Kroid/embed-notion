@@ -7,8 +7,7 @@
   "license": "PRIVATE",
   "private": true,
   "scripts": {
-    "develop": "nodemon server.js",
-    "production": "NODE_ENV=production pm2 start server.js"
+    "develop": "nodemon server.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
