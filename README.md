@@ -17,8 +17,10 @@ Web server for notion embed components. With this, you can use additional featur
    ![notion markdown](.readme-assets/markdown.png)
 4. Copy block id of element:
    ![notion copy link](.readme-assets/copy-link.png)
+
    For example, for url:
    `https://www.notion.so/2fde7f36cbe67a59bab4598af323b0c6#1fa438a1c04a42c28a809cc826a8f20b` block id is `1fa438a1c04a42c28a809cc826a8f20b`
+
 5. Go to website, submit token with block id, copy url and past it to notion embed:
    ![embed](.readme-assets/embed1.png)
 
