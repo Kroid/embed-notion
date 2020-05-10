@@ -5,3 +5,9 @@ html
     block scripts
   body
     block content
+    script(src='https://www.googletagmanager.com/gtag/js?id=UA-159141183-3')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());      
+      gtag('config', 'UA-159141183-3');
