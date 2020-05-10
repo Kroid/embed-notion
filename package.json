@@ -4,8 +4,8 @@
   "main": "server.js",
   "repository": "git@github.com:Kroid/embed-notion.git",
   "author": "George Mironov <kroid@yandex.ru>",
-  "license": "PRIVATE",
-  "private": true,
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "develop": "nodemon server.js"
   },
